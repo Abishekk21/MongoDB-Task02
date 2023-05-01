@@ -3,7 +3,7 @@
 
 //--------------------------------------Find all the topics and tasks which are thought in the month of October
 
-      db.Topics.find({topicDate: "Oct 2022"})
+      db.Topics.find({topicDate: "Oct 2022"}) 
       db.Tasks.find({taskDate :{$regex :"Oct"}})
 
 //------------------------------------Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
